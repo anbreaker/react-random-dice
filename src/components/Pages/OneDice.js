@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import { Jumbo } from '../Parts/Jumbo';
+
 export const OneDice = () => {
   const caras = ['one', 'two', 'three', 'four', 'five', 'six'];
 
@@ -42,6 +44,15 @@ export const OneDice = () => {
             <div className="title">{randomNumDado1}</div>
           </div>
         </div>
+        <Jumbo
+          title={<h4>Uso</h4>}
+          text={
+            <li>
+              Pulsa sobre el dado y saldrá un número aleatorio, pero nunca saldrá dos
+              veces seguidas el mismo valor.
+            </li>
+          }
+        />
       </div>
     </>
   );

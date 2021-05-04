@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import { Jumbo } from '../Parts/Jumbo';
+
 export const TwoDice = () => {
   const caras = ['one', 'two', 'three', 'four', 'five', 'six'];
 
@@ -24,6 +26,11 @@ export const TwoDice = () => {
     else handleRollDice2();
   };
 
+  const handleRollDices = () => {
+    handleRollDice1();
+    handleRollDice2();
+  };
+
   return (
     <>
       <div className="container mt-5 ">
@@ -38,6 +45,12 @@ export const TwoDice = () => {
             </div>
           </div>
 
+          <div className="col d-flex align-items-center justify-content-center">
+            <div className="btn btn-lg btn-success" onClick={handleRollDices}>
+              <i className="fas fa-random"></i>
+            </div>
+          </div>
+
           <div className="col text-center">
             <div className="btn btn-lg btn-danger" onClick={handleRollDice2}>
               <i className={`fas fa-dice-${caras[randomNumDado2 - 1]} icon`}></i>
@@ -47,6 +60,19 @@ export const TwoDice = () => {
         <div className="col text-center">
           <div className="title">{randomNumDado1 + randomNumDado2}</div>
         </div>
+
+        <Jumbo
+          title={<h4>Uso:</h4>}
+          text={
+            <>
+              <li>
+                Los dados funcionan individualmente clicando sobre cada uno de ellos, o en
+                conjunto, haciendo click sobre el boton central.
+              </li>
+              <li>Nunca saldrá dos veces seguidas el mismo valor en el mismo dado</li>
+            </>
+          }
+        />
       </div>
     </>
   );

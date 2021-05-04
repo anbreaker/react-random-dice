@@ -1,6 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 export const Options = () => {
+  const [numeroCaras, setNumeroCaras] = useState(1);
+
+  const handleInputChange = ({ target }) => {
+    console.log(target.value);
+
+    setNumeroCaras(target.value);
+  };
+
   return (
     <>
       <div className="container mt-5">
@@ -17,6 +25,8 @@ export const Options = () => {
                   id="numeroCaras"
                   aria-describedby="numeroCarasDado"
                   placeholder="Introduce un Número de Caras para el Dado"
+                  value={numeroCaras}
+                  onChange={handleInputChange}
                 />
               </div>
             </div>
@@ -35,6 +45,9 @@ export const Options = () => {
               </div>
             </div>
           </div>
+          <button type="submit" class="btn btn-primary">
+            Lanzar
+          </button>
         </form>
       </div>
     </>

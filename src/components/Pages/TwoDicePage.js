@@ -1,16 +1,14 @@
 import React, { useState } from 'react';
 
+import { ramdom } from '../../Helpers/numRandom';
+
 import { Jumbo } from '../Parts/Jumbo';
 
-export const TwoDice = () => {
+export const TwoDicePage = () => {
   const caras = ['one', 'two', 'three', 'four', 'five', 'six'];
 
   const [randomNumDado1, setRandomNumDado1] = useState(1);
   const [randomNumDado2, setRandomNumDado2] = useState(1);
-
-  const ramdom = (max = 6, min = 1) => {
-    return Math.floor(Math.random() * (max - min + 1) + 1);
-  };
 
   const handleRollDice1 = () => {
     const valueDiceRandom = ramdom();

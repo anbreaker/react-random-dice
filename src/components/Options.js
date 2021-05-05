@@ -1,8 +1,13 @@
 import React, { useEffect, useState } from 'react';
 
+import { OneDice } from './Parts/OneDice';
+
+// import { Jumbo } from './Parts/Jumbo';
+
 export const Options = () => {
   const [numeroCaras, setNumeroCaras] = useState(3);
   const [numeroDados, setNumeroDados] = useState(1);
+
   const [rigthNumberFace, setRigthNumberFace] = useState(false);
   const [rigthNumberDices, setRigthNumberDices] = useState(false);
 
@@ -45,6 +50,9 @@ export const Options = () => {
     <>
       <div className="container mt-5">
         <h1>Lanzar Dados 🎲 </h1>
+
+        <OneDice />
+
         <div className="jumbotron">
           <form>
             <div className="row mt-lg-3">

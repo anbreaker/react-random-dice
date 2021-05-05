@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import { Navbar } from '../components/Navigation/Navbar';
 import { Options } from '../components/Options';
-import { OneDice } from '../components/Pages/OneDice';
+import { OneDicePage } from '../components/Pages/OneDicePage';
 import { Presentacion } from '../components/Pages/Presentacion';
-import { TwoDice } from '../components/Pages/TwoDice';
+import { TwoDicePage } from '../components/Pages/TwoDicePage';
 
 export const App = () => {
   return (
@@ -14,8 +14,8 @@ export const App = () => {
 
       <Switch>
         <Route exact path="/" component={Presentacion} />
-        <Route exact path="/one" component={OneDice} />
-        <Route exact path="/two" component={TwoDice} />
+        <Route exact path="/one" component={OneDicePage} />
+        <Route exact path="/two" component={TwoDicePage} />
         <Route exact path="/options" component={Options} />
       </Switch>
     </Router>

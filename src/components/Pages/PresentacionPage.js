@@ -6,7 +6,7 @@ export const PresentacionPage = () => {
       <div className="container mt-3">
         <h1>BeKind Software, prueba Técnica</h1>
 
-        <div className="jumbotron mt-3">
+        <div className="jumbotron mt-2">
           <h4>
             <b>Reto</b>
           </h4>

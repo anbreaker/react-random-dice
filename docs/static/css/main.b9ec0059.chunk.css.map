@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,OACE,cACF,CAEA,aACE,cACF,CAEA,WACE,gBACF,CAEA,MACE,cACF","file":"main.b9ec0059.chunk.css","sourcesContent":[".title {\n  font-size: 7rem;\n}\n\n.count-dices {\n  font-size: 4rem;\n}\n\n.text-info {\n  font-size: 1.3rem;\n}\n\n.icon {\n  font-size: 7rem;\n}"]}

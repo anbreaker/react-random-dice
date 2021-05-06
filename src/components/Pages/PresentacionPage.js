@@ -27,8 +27,8 @@ export const PresentacionPage = () => {
             puntos 🙂
           </p>
           <ul>
-            <li>Poder elegir la cantidad de caras del dado.</li>
-            <li> Poder tirar múltiples dados a la vez.</li>
+            <li>Poder elegir la cantidad de caras del dado. ✔️</li>
+            <li> Poder tirar múltiples dados a la vez. ✔️</li>
             <li>Poder tirar múltiples dados de diferentes caras a la vez.</li>
             <li>
               Poder ingresar múltiples usuarios y llevar turnos para tirar los dados así

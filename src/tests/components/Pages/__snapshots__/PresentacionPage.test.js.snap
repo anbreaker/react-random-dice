@@ -9,7 +9,7 @@ exports[`Prueba en <PresentacionPage />  Debe mostrar la <PresentacionPage /> co
       BeKind Software, prueba Técnica
     </h1>
     <div
-      className="jumbotron mt-3"
+      className="jumbotron mt-2"
     >
       <h4>
         <b>
@@ -24,6 +24,8 @@ exports[`Prueba en <PresentacionPage />  Debe mostrar la <PresentacionPage /> co
           Enlace al proyecto en github:
           <a
             href="https://github.com/anbreaker/react-random-dice"
+            rel="noopener noreferrer"
+            target="_blank"
           >
              
             BeKind Software, prueba Técnica ✔️

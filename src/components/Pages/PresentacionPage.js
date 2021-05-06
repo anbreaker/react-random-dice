@@ -14,7 +14,10 @@ export const PresentacionPage = () => {
             <li>Crear una aplicación que permita al usuario "lanzar dados” 🎲. ✔️</li>
             <li>
               Enlace al proyecto en github:
-              <a href="https://github.com/anbreaker/react-random-dice">
+              <a
+                href="https://github.com/anbreaker/react-random-dice"
+                target="_blank"
+                rel="noopener noreferrer">
                 {' '}
                 BeKind Software, prueba Técnica ✔️
               </a>

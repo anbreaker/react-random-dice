@@ -16,8 +16,11 @@ export const Navbar = () => {
           <Link className="nav-item nav-link" to="/two">
             Dos Dados
           </Link>
-          <Link className="nav-item nav-link" to="/options">
+          {/* <Link className="nav-item nav-link" to="/options">
             Opciones
+          </Link> */}
+          <Link className="nav-item nav-link" to="/opt">
+            Pruebas
           </Link>
         </div>
       </nav>

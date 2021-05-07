@@ -57,11 +57,11 @@ http://localhost:3000/
 npm run test
 ```
 
-## Para ver un ejemplo de despliegue y ejecucion (click en la imagen)
+## Para ver un ejemplo de Instalación y Ejecución (click en la imagen) Youtube! 📺
 
 <br>
 
-<!-- [![](https://github.com/anbreaker/react-random-dice/blob/main/public/reto.png?raw=true)](https://github.com/anbreaker/react-random-dice/blob/main/public/reto.png?raw=true) -->
+[![](https://github.com/anbreaker/react-random-dice/blob/main/public/youtube.png?raw=true)](https://www.youtube.com/watch?v=Rg891oLx3kM)
 
 ## Author
 

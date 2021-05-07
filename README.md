@@ -15,6 +15,8 @@
 
 > Aplicación que permite al usuario &#34;lanzar dados” 🎲
 
+[![](https://github.com/anbreaker/react-random-dice/blob/main/public/reto.png?raw=true)](https://roll-dice-react.herokuapp.com/)
+
 <br>
 
 ### 🏠 [Homepage](https://github.com/anbreaker/react-random-dice)
@@ -25,7 +27,7 @@
 
 <br>
 
-### ✨ [Demo](https://roll-dice-react.herokuapp.com/)
+### ✨ [Demo Web react-random-dice](https://roll-dice-react.herokuapp.com/)
 
 <br>
 
@@ -54,6 +56,12 @@ http://localhost:3000/
 ```sh
 npm run test
 ```
+
+## Para ver un ejemplo de despliegue y ejecucion (click en la imagen)
+
+<br>
+
+<!-- [![](https://github.com/anbreaker/react-random-dice/blob/main/public/reto.png?raw=true)](https://github.com/anbreaker/react-random-dice/blob/main/public/reto.png?raw=true) -->
 
 ## Author
 

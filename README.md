@@ -15,19 +15,23 @@
 
 ### ✨ [Demo](https://roll-dice-react.herokuapp.com/)
 
-## Install
+## Install all dependencies src 💾
 
 ```sh
 npm install
 ```
 
-## Usage
+## Usage 🖥️
 
 ```sh
 npm run start
+
+go
+
+http://localhost:3000/
 ```
 
-## Run tests
+## Run tests (Some tests) 🧪
 
 ```sh
 npm run test
@@ -37,14 +41,15 @@ npm run test
 
 👤 **Francisco Javier Antúnez Durán**
 
-* Website: https://rootdevs.es/
-* Twitter: [@antunez19](https://twitter.com/antunez19)
-* Github: [@anbreaker](https://github.com/anbreaker)
-* LinkedIn: [@https:\/\/www.linkedin.com\/in\/francisco-javier-antunez-duran\/](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/francisco-javier-antunez-duran\/)
+- Website: https://rootdevs.es/
+- Twitter: [@antunez19](https://twitter.com/antunez19)
+- Github: [anbreaker](https://github.com/anbreaker)
+- LinkedIn: [https:\/\/www.linkedin.com\/in\/francisco-javier-antunez-duran\/](https://linkedin.com/in/https://www.linkedin.com/in/francisco-javier-antunez-duran/)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

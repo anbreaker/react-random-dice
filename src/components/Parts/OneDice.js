@@ -18,7 +18,7 @@ export const OneDice = () => {
     <>
       <div className="row mt-5">
         <div className="col text-center">
-          <div className="btn btn-lg btn-danger" onClick={handleRollDice}>
+          <div className="btn btn-lg btn-danger" id="bnt1" onClick={handleRollDice}>
             <i
               className={`fas fa-dice-${caras[randomNumDado - 1]} icon`}
               // El css anclado directo es simplemente para mostrar que conozco mas formas.
@@ -28,7 +28,7 @@ export const OneDice = () => {
         </div>
 
         <div className="col text-center">
-          <div className="title">{randomNumDado}</div>
+          <h1 className="title">{randomNumDado}</h1>
         </div>
       </div>
     </>

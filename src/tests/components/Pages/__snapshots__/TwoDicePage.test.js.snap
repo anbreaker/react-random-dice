@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba en <TwoDicePage />  Debe mostrar la <TwoDicePage /> correctamente 1`] = `
+<Fragment>
+  <div
+    className="container mt-5 "
+  >
+    <div
+      className="row mt-5"
+    >
+      <div
+        className="col text-center"
+      >
+        <div
+          className="btn btn-lg btn-danger"
+          onClick={[Function]}
+        >
+          <i
+            className="fas fa-dice-one icon"
+          />
+        </div>
+      </div>
+      <div
+        className="col d-flex align-items-center justify-content-center"
+      >
+        <div
+          className="btn btn-lg btn-success"
+          onClick={[Function]}
+        >
+          <i
+            className="fas fa-random"
+          />
+        </div>
+      </div>
+      <div
+        className="col text-center"
+      >
+        <div
+          className="btn btn-lg btn-danger"
+          onClick={[Function]}
+        >
+          <i
+            className="fas fa-dice-one icon"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="col text-center"
+    >
+      <div
+        className="title"
+      >
+        2
+      </div>
+    </div>
+    <Jumbo
+      text={
+        <React.Fragment>
+          <li>
+            Los dados funcionan individualmente clicando sobre cada uno de ellos, o en conjunto, haciendo click sobre el boton central.
+          </li>
+          <li>
+            Nunca saldrá dos veces seguidas el mismo valor en el mismo dado
+          </li>
+        </React.Fragment>
+      }
+      title={
+        <h4>
+          Uso:
+        </h4>
+      }
+    />
+  </div>
+</Fragment>
+`;
